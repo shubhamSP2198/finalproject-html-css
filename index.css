@@ -44,6 +44,13 @@ body{
     width: 120px;
 }
 
+.pull-stop{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #5243c0;
+}
+
 .article-left h1{
     font-size: 70px;
     margin: 0;
@@ -157,4 +164,6 @@ main{
     background-color: #fff;
     box-shadow: 0 5px 50px #ccc;
 }
+
+
 
