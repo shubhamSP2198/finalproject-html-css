@@ -1,113 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Repica Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-Css Final Project</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
-
 <body>
-    <header id="top-bar">
-        <img src="./images/stunning-logo.png" alt="stunning logo">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Blog</a>
-            <a href="#">Jobs</a>
-        </nav>
-        <button>Your Account</button>
-    </header>
-    <main>
-        <section id="section-one">
-            <div class="marge-article">
-                <article class=article-left>
-                    <h1>Stunning Workplace<span class="pull-stop"></span></h1>
-                    <p>With stunning, remote teams can organize projects, manage shifting priorities, and get work done.
-                    </p>
-                    <div class="newbuttonsection">
-                        <button>New Account</button>
-                        <img class="arrow-icon" src="./images/arrow-up.png" alt="down-arrow">
-                        <img class="arrow-icon" src="./images/arrow-down.png" alt="dowm arrow">
+   <main>
+        <Section class="landing-section">
+            <div class="landing-main-section">
+                <header id="top-bar">
+                    <div class="img-background">
+                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png" alt="logo icon">
                     </div>
-                </article>
-                <article class="article-left">
-                    <div class="tables-line">
-                        <div class="table-line-checkbox">
-                            <img src="./images/tick-gray.png" alt="tick">
-                        </div>
-                        <div class="table-line-heading">
-                            <p>Dmm Design</p>
-                        </div>
-                        <div class="table-line-icon">
-                            <img src="./images/user-pink.png" alt="user-pink">
-                        </div>
-                        <div class="table-line-date">
-                            <p>20 Dec</p>
-                        </div>
-                        <div class="table-line-square">
-                            <div style="background-color:#fed7da" class="square-design"></div>
-                        </div>
+                    <div class="menu-icon">
+                        <div class="menu-icon-line"></div>
+                        <div class="menu-icon-line"></div>
                     </div>
-                    <div class="tables-line">
-                        <div class="table-line-checkbox">
-                            <img src="./images/tick-blue.png" alt="tick">
+                    <nav id="menu-items">
+                        <div class="menu-option">
+                            Home
                         </div>
-                        <div class="table-line-heading">
-                            <p>Blurr Animation</p>
+                        <div class="menu-option">
+                            Projects
                         </div>
-                        <div class="table-line-icon">
-                            <img src="./images/user-orange.png" alt="user-orange">
+                        <div class="menu-option"> 
+                            About
                         </div>
-                        <div class="table-line-date">
-                            <p>22 Dec</p>
+                        <div class="menu-option">
+                            Services
                         </div>
-                        <div class="table-line-square">
-                            <div style="background-color:#fd6434" class="square-design"></div>
+                        <div class="menu-option">
+                            Blog
                         </div>
-                    </div>
-                    <div class="tables-line">
-                        <div class="table-line-checkbox">
-                            <img src="./images/tick-gray.png" alt="tick">
+                        <div class="drop-down">
+                            <div class="menu-option">
+                                Pages<i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="drop-down-division">
+                                <div class="drop-option">404 error page</div>
+                                <div class="drop-option">Protected Page</div>
+                                <div class="drop-option">Style Guide</div>
+                                <div class="drop-option">Licensing</div>
+                            </div>
                         </div>
-                        <div class="table-line-heading">
-                            <p>Illustration</p>
+                        <div class="menu-button">
+                            <button>Get Free Quote</button>
                         </div>
-                        <div class="table-line-icon">
-                            <img src="./images/user-blue.png" alt="user-blue">
-                        </div>
-                        <div class="table-line-date">
-                            <p>26 Dec</p>
-                        </div>
-                        <div class="table-line-square">
-                            <div style="background-color:#9ed095" class="square-design"></div>
-                        </div>
-                    </div>
-                    <div class="tables-line">
-                        <div class="table-line-checkbox">
-                            <img src="./images/tick-gray.png" alt="tick">
-                        </div>
-                        <div class="table-line-heading">
-                            <p>Refunds</p>
-                        </div>
-                        <div class="table-line-icon">
-                            <img src="./images/user-red.png" alt="user-red">
-                        </div>
-                        <div class="table-line-date">
-                            <p>28 Dec</p>
-                        </div>
-                        <div class="table-line-square">
-                            <div style="background-color:#ffe4a0" class="square-design"></div>
-                        </div>
-                    </div>
-                </article>
+                    </nav>
+                </header>
+                <h1>YOU DREAM. WE CREATE.</h1>
+                <p>We turn your ideas to reality, we don't stop until you're satisfied.</p>
+                <div><button class="btn-quode2">Get Free Quode</button></div>
             </div>
-            <div class="marge-article">
-                <article class="article-right">                   
-                    <img class="left-section-image" src="./images/landing-section-image.png" alt="landing-section">                   
+            <div class="landing-contact-details">
+                <div class="landing-contact-details-division">
+                    <div><i class="fas fa-phone-alt"></i></div>
+                    <h3>Phone Number</h3>
+                    <p>1-800-506-266</p>
+                    <p>1-100-777-800</p>
+                </div>
+                <div class="landing-contact-details-division">
+                    <div><i class="far fa-clock"></i></div>
+                    <h3>Contact</h3>
+                    <p>contact@nuuk.com</p>
+                    <p>info@nuuk.com</p>
+                </div>
+                <div class="landing-contact-details-division">
+                    <div><i class="far fa-envelope"></i></div>
+                    <h3>Opening Time</h3>
+                    <p>Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+                    <div><a href="#">Find On Map</a></div>
+                </div>
+            </div>
+
+            <div class="landing-social-icon">
+                <div><i class="fab fa-facebook-f"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
+                <div><i class="fab fa-linkedin-in"></i></div>
+                <div style="border: none;"><i class="fab fa-instagram"></i></div>
+            </div>
+            
+        </section>
+        <section class="service-section">
+            <div class="service-head-section">
+                <div>
+                    <div class="service-upper-heading">OUR SPECIALIZATION</div>
+                    <div class="service-lower-heading">SERVICES</div>
+                </div>
+                <div>
+                    <a class="service-head-link" href="#">View All Works</a>
+                </div>
+            </div>
+            <div class="service-card-section">
+                <article>
+                    <figure>
+                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg" alt="img-1">
+                    </figure>
+                    <h3>RENOVATION</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <div><a href="#">Learn More</a></div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/set-square.svg" alt="img-2">
+                    </figure>
+                    <h3>ARCHITECTURE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <div><a href="#">Learn More</a></div>
+                </article>
+                <article>
+                    <figure>
+                        <img style="width: 60px;" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/toolbox.svg" alt="img-3">
+                    </figure>
+                    <h3>CONSTRUCTION</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <div><a href="#">Learn More</a></div>
+                </article>
+                <article>
+                    <figure>
+                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/paint-roller.svg" alt="img-4">
+                    </figure>
+                    <h3>FINANCIAL RESULTS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <div><a href="#">Learn More</a></div>
                 </article>
             </div>
         </section>
+        <section class="about-section">
+            <figure>
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg" alt="img-icon">
+            </figure>
+            <div class="about-section-details">
+                <div class="about-section-heading">
+                    <div class="about-section-upper-heading">Who we are</div>
+                    <div class="about-section-lower-heading">About</div>
+                </div>
+                <p class="about-section-para">Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform individual knowledge into increased creative potential.</p>
+                <p class="about-section-para">Our studio is a architecture practice based in NY and Paris. Today, it includes 150 architects, urban planners, landscape and interior designers of 25 different nationalities. The company principle of Architecture-Studio is the collective conception. From the very beginning, the practice has believed in the virtues of exchange, crossing ideas, common effort, shred knowledge.</p>
+                <div style="margin-top: 30px;"><a class="about-section-link" href="#">Meet the team</a></div>
+            </div>
+        </section>
+        <section class="details-section">
+            <article>
+                <h2>170</h2>
+                <p>Employer with over 10 years of experience</p>
+            </article>
+            <article>
+                <h2>10</h2>
+                <p>Years experience in construction industries</p>
+            </article>
+            <article>
+                <h2>690</h2>
+                <p>Residential premises completed in 2019</p>
+            </article>
+            <article>
+                <h2>7.1</h2>
+                <p>Milion dollar value on investments</p>
+            </article>
+        </section>
+        <section class="project-section">
+            <div class="project-head-section">
+                <div>
+                    <div class="project-upper-heading">Our Work</div>
+                    <div class="project-lower-heading">Services</div>
+                </div>
+                <div>
+                    <a class="project-head-link" href="#">View All Works</a>
+                </div>
+            </div>
+            <div class="project-image-section">
+                <article class="project-image-section-article">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg" alt="project-1">
+                    <div class="transparent-division">
+                        <div class="transparent-upper-division">View Projects</div>
+                    </div>
+                </article>
+                <article class="project-image-section-article">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg" alt="project-2">
+                    <div class="transparent-division">
+                        <div class="transparent-upper-division">View Projects</div>
+                    </div>
+                </article>
+                <article class="project-image-section-article">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg" alt="project-3">
+                    <div  class="transparent-division">
+                        <div class="transparent-upper-division">View Projects</div>
+                    </div>
+                </article>
+                <article class="project-image-section-article">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg" alt="project-4">
+                    <div class="transparent-division">
+                        <div class="transparent-upper-division">View Projects</div>
+                    </div>
+                </article>
+                <article class="project-image-section-article">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg" alt="project-5">
+                    <div class="transparent-division">
+                        <div class="transparent-upper-division">View Projects</div>
+                    </div>
+                </article>
+                <article class="project-image-section-article">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg" alt="project-6">
+                    <div class="transparent-division">
+                        <div class="transparent-upper-division">View Projects</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="section-adver">
+            <h1>LET'S MAKE SOMETHING GREAT TOGETHER</h1>
+            <p>Get in touch with us and send some basic info for a quick quote.</p>
+            <div><a href="#">GET FREE QUOTE</a></div>
+        </section>
+        <section class=team-section>
+            <div class="team-section-heading">
+                <div>
+                    <div class="team-section-upper-heading">PROFESSIONALS</div>
+                    <div class="team-section-lower-heading">TEAM</div>
+                </div>
+                <div><a class="team-head-link" href="#">About Us</a></div>
+            </div>
+            <div class="team-section-card">
+                <article>
+                    <div class="team-section-img-card">
+                        <figure>
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg" alt="team-1">
+                        </figure>
+                        <div>
+                            <h3>Philip Brower</h3>
+                            <p>Managing Director</p>
+                        </div>
+                    </div>
+                    <div class="team-section-social-icon">
+                        <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                        <div class="social-icon-twitter"><i class="fab fa-twitter"></i></div>
+                        <div class="social-icon"><i class="fab fa-linkedin-in"></i></div>
+                    </div>
+                </article>
+                <article>
+                    <div class="team-section-img-card">
+                        <figure>
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg" alt="team-2">
+                        </figure>
+                        <div>
+                            <h3>John Wick</h3>
+                            <p>Managing Director</p>
+                        </div>
+                    </div>
+                    <div class="team-section-social-icon">
+                        <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                        <div class="social-icon-twitter"><i class="fab fa-twitter"></i></div>
+                        <div class="social-icon"><i class="fab fa-linkedin-in"></i></div>
+                    </div>
+                </article>
+                <article>
+                    <div class="team-section-img-card">
+                        <figure>
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg" alt="team-3">
+                        </figure>
+                        <div>
+                            <h3>Jimmy Mcgill</h3>
+                            <p>Managing Director</p>
+                        </div>
+                    </div>
+                    <div class="team-section-social-icon">
+                        <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                        <div class="social-icon-twitter"><i class="fab fa-twitter"></i></div>
+                        <div class="social-icon"><i class="fab fa-linkedin-in"></i></div>
+                    </div>
+                </article>
+                <article>
+                    <div class="team-section-img-card">
+                        <figure>
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg" alt="team-2">
+                        </figure>
+                        <div>
+                            <h3>Sana Connor</h3>
+                            <p>Managing Director</p>
+                        </div>
+                    </div>
+                    <div class="team-section-social-icon">
+                        <div class="social-icon"><i class="fab fa-facebook-f"></i></div>
+                        <div class="social-icon-twitter"><i class="fab fa-twitter"></i></div>
+                        <div class="social-icon"><i class="fab fa-linkedin-in"></i></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="client-section">
+            <div class="client-section-heading">
+                <div>
+                    <div class="client-section-upper-heading">TESTIMONIALS</div>
+                    <div class="client-section-lower-heading">CLIENTS</div>
+                </div>
+                <p>Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent blandit laoreet nibh. Morbi mollis tellus ac sapien.</p>
+                <div><a class="client-head-link" href="#">Our Services</a></div>
+            </div>
+            <div class="client-section-divisionA">
+                <div class="client-section-positioning">
+                    <div class="client-section-card">
+                        <h3>Sara Willams</h3>
+                        <div>CEO at Webflow</div>
+                        <p>"Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet"</p>
+                    </div>
+                    <div class="arrow-division">"</div>
+                </div>
+                <div class="client-section-positioning">
+                    <div class="client-section-card">
+                        <h3>JOHN JUNIORs</h3>
+                        <div>Menager at Complexx</div>
+                        <p>"Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam sit amet orci eget eros faucibus tincidunt. Fusce a quam"</p>
+                    </div>
+                    <div class="arrow-division">"</div>
+                </div>
+            </div>
+            <div class="client-section-divisionB">
+                <div class="client-section-positioning">
+                    <div class="client-section-card">
+                        <h3>RAVEN DURGAN</h3>
+                        <div>Architect at Group</div>
+                        <p>"Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl"</p>
+                    </div>
+                    <div class="arrow-division">"</div>
+                </div>
+                <div class="client-section-positioning">
+                    <div class="client-section-card">
+                        <h3>SAMI TYPO</h3>
+                        <div>SEO at Balfin</div>
+                        <p>"Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus hendrerit"</p>
+                    </div>
+                    <div class="arrow-division">"</div>
+                </div>
+            </div>
+        </section>
+        <section class="latestnews-section">
+            <div class="latestnews-section-heading">
+                <div>
+                    <div class="latestnews-section-upper-heading">Latest News</div>
+                    <div class="latestnews-section-lower-heading">Blog</div>
+                </div>
+                <div><a class="latestnews-head-link" href="#">View Blog</a></div>
+            </div>
+            <div class="latestnews-section-article">
+                <article>
+                    <div>
+                        <figure>
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg" alt="port1 asset">
+                        </figure>
+                        <div class="card-division">
+                            <h3>Blog post 1</h3>
+                            <p>Service and providig clients and customers with testimonials is one of the best way to market.</p>
+                            <div>
+                                <a class="latestnews-link" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upper-division">
+                        <div class="upper-division-A">17</div>
+                        <div class="upper-division-B">Oct</div>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <figure>
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg" alt="port2 asset">
+                        </figure>
+                        <div class="card-division">
+                            <h3>Blog post 2</h3>
+                            <p>Service and providig clients and customers with testimonials is one of the best way to market.</p>
+                            <div>
+                                <a class="latestnews-link" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upper-division">
+                        <div class="upper-division-A">11</div>
+                        <div class="upper-division-B">Dec</div>
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <figure>
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg" alt="port3 asset">
+                        </figure>
+                        <div class="card-division">
+                            <h3>Blog post 3</h3>
+                            <p>Service and providig clients and customers with testimonials is one of the best way to market.</p>
+                            <div>
+                                <a class="latestnews-link" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upper-division">
+                        <div class="upper-division-A">27</div>
+                        <div class="upper-division-B">Oct</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    <section class="company-logo-section">
+        <div class="logo-heading">Trusted By top companies</div>
+        <div>
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png" alt="logo-1">
+        </div>
+        <div>
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png" alt="logo-2">
+        </div>
+        <div>
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png" alt="logo-3">
+        </div>
+        <div>
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png" alt="logo-4">
+        </div>
+        <div>
+            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png" alt="logo-5">
+        </div>
+    </section>
     </main>
+    <footer id="bottom-part">
+        <div class="footer-division">
+            <div class="footer-division-part">
+                <div class="footer-division-part-heading">
+                    <h3>About Nuuk</h3>
+                    <div style="width: 65%; height: 1px; background-color: #e47312;"></div>
+                </div>
+                <p class="footer-about-para">Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform individual knowledge into increased creative potential.                </p>
+                <div><a href="#">FIND ON MAP</a></div>
+            </div>
+            <div class="footer-division-part">
+                <div class="footer-division-part-heading">
+                    <h3>Services</h3>
+                    <div style="width: 74%; height: 1px; background-color: #e47312;"></div>
+                </div>
+                <div class="footer-service-division">
+                    <a href="#">Financial result</a>
+                </div>
+                <div class="footer-service-division">
+                    <a href="#">Contruction</a>
+                </div>
+                <div class="footer-service-division">
+                    <a href="#">Architecture</a>
+                </div>
+                <div class="footer-service-division">
+                    <a href="#">Renovation</a>
+                </div>
+            </div>
+            <div class="footer-division-part">
+                <div class="footer-division-part-heading">
+                    <h3>Contact us</h3>
+                    <div style="width: 65%; height: 1px; background-color: #e47312;"></div>
+                </div>
+                <div class="footer-last-section-description">
+                    <div><i class="fas fa-phone-alt"></i></div>
+                    <div style="padding-left: 20px;">
+                        <h3>Phone Number</h3>
+                        <p>1-800-506-266</p>
+                    </div>
+                </div>
+                <div class="footer-last-section-description">
+                    <div><i class="far fa-clock"></i></div>
+                    <div style="padding-left: 20px;">
+                        <h3>Opening Time</h3>
+                        <p>Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+                    </div>
+                </div>
+                <div class="footer-last-section-description">
+                    <div><i class="far fa-envelope"></i></div>
+                    <div style="padding-left: 20px;">
+                        <h3>Contact</h3>
+                        <p>contact@nuuk.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-logo-icon">
+            <figure>
+                <img style="width: 90px;" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png" alt="logo icon">
+            </figure>  
+        </div>  
+    </footer>
 </body>
-
 </html>
