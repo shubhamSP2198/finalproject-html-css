@@ -1,2 +1,2 @@
-# project-web
-simple web page
+# HTML-CSS Final Project
+simple web page template
